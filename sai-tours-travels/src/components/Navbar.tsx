@@ -12,18 +12,15 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           
           {/* Logo Brand Area (Sizes scaled down for mobile viewports to prevent wrapping) */}
-          <div className="flex flex-col justify-center select-none">
-            {/* Scales from 13px on mobile up to 20px on desktops */}
-            <span className="text-[13px] xs:text-base sm:text-lg md:text-xl font-black text-blue-600 tracking-wider leading-none uppercase block">
+          <div className="flex flex-col justify-center">
+            {/* English Title - Blue, Bold, custom size */}
+            <span className="text-sm sm:text-base md:text-lg font-black text-blue-600 tracking-wide leading-none uppercase block">
               SAYALI TOURS & TRAVELS
             </span>
-            {/* Scales from 9px on mobile up to 14px on desktops */}
+            
+            {/* Marathi Subtitle - Identical Size (Height), Orange Color, Micro-spaced (Width) */}
             <span 
-              className="text-[9px] xs:text-[11px] sm:text-xs md:text-sm font-black text-orange-500 mt-1.5 block leading-none antialiased"
-              style={{ 
-                fontFamily: "'Noto Sans Devanagari', sans-serif",
-                letterSpacing: "1.2px"
-              }}
+              className="text-sm sm:text-base md:text-[19px] font-black text-center text-orange-500 mt-2 block leading-none antialiased"
             >
               सायली टूर्स अँड ट्रॅव्हल्स
             </span>
