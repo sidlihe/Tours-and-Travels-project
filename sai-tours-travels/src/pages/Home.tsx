@@ -42,7 +42,7 @@ export default function Home() {
           <span className="bg-orange-500/20 text-orange-400 font-extrabold px-4 py-1.5 rounded-full text-xs uppercase tracking-widest border border-orange-500/30">
             Welcome to Sayali Tours & Travels
           </span>
-          <h1 className="text-4xl md:text-7xl font-black tracking-tight mt-6 mb-6 leading-tight drop-shadow-lg">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mt-6 mb-6 drop-shadow-md">
             Your Trusted Travel Partner <br />
             <span className="text-orange-400">In Kalyan & Beyond</span>
           </h1>
